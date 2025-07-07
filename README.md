@@ -24,6 +24,8 @@ Bokeh: Python library used to create interactive visualizations, making it easie
 pricing trends.
 
 System Workflow
+
+
 The system follows a simple and practical workflow that makes it easy to understand and execute:
 Step 1: Load the parking lot dataset directly into Google Colab for easy access and processing.
 Step 2: Process the dataset in simulated batches to mimic real-time data flow. This allows us to
