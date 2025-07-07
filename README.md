@@ -45,13 +45,21 @@ pricing trends across different models and parking lots
 Visual Architecture
 
 graph TD
+
  A[dataset.csv] --> B[Google Colab Notebook]
+ 
  B --> C[Model 1: Linear Pricing]
+ 
  B --> D[Model 2: Demand-Based Pricing]
+ 
  B --> E[Model 3: Competitive Pricing]
+ 
  C --> F[Bokeh Visualization]
+ 
  D --> F
+ 
  E --> F
+ 
 
 Project Files
 
