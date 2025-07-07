@@ -27,9 +27,12 @@ System Workflow
 
 
 The system follows a simple and practical workflow that makes it easy to understand and execute:
+
 Step 1: Load the parking lot dataset directly into Google Colab for easy access and processing.
+
 Step 2: Process the dataset in simulated batches to mimic real-time data flow. This allows us to
 create the effect of streaming without needing complex server setups.
+
 Step 3: Apply three pricing models to calculate the dynamic prices for each parking lot:
 Linear Occupancy Model: Increases the price directly in proportion to how full the parking lot is.
 This is a basic but important pricing strategy.
@@ -37,8 +40,10 @@ Demand-Based Model: Uses multiple factors such as occupancy, queue length, nearb
 special events, and vehicle type to calculate a more responsive and fair price.
 Competitive Pricing Model: Adjusts prices based on simulated competitor pricing to ensure our
 parking lot remains competitive in the market.
+
 Step 4: Visualize the price changes over time using Bokeh plots, which help in quickly comparing
 pricing trends across different models and parking lots
+
 
 
 
@@ -65,10 +70,14 @@ Project Files
 
 Dynamic_Pricing_RealTime.ipynb : The Google Colab notebook that contains the complete
 batch simulation and visualization code.
+
 dataset.csv : The dataset used for simulating parking lot activity, which includes key features
 such as occupancy, queue length, and traffic.
+
 README.md : This file, which explains the project structure, tools, and workflow.
+
 problem_statement.pdf : The original problem statement provided for the project.
+
 
 
 Final Output
